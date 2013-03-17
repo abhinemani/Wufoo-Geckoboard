@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:delianides/wuparty.git
-  revision: b8a5ab229d61f8469c1ecdf47042fc9528065124
+  remote: git://github.com/delianides/wuparty.git
+  revision: 19614658daa890111e774130a5f35c70c4ac4b9d
   specs:
     wuparty (1.2.2)
       httparty (>= 0.6.1)
