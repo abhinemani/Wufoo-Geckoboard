@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/delianides/wuparty.git
-  revision: 19614658daa890111e774130a5f35c70c4ac4b9d
+  revision: 02c86ea076919bbc8bcd24984ae15f47cd9daa66
   specs:
     wuparty (1.2.2)
       httparty (>= 0.6.1)
@@ -40,7 +40,7 @@ GEM
       rack-test
       sinatra (~> 1.3.0)
       tilt (~> 1.3)
-    tilt (1.3.5)
+    tilt (1.3.6)
 
 PLATFORMS
   ruby
