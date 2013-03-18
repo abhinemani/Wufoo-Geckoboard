@@ -14,7 +14,7 @@ After you deploy the app you should just be able to added the heroku URL to geck
 
 ##Wufoo
 
-I'm using a modified version of the WuParty gem.  This version contains a `count` method that accepts filters. You can read more about filters and Wufoo's API on their [website](http://wufoo.com/docs/api/v3/entries/get/#filter).
+I'm using the WuParty gem.  This gem contains a `count` method that accepts filters. You can read more about filters and Wufoo's API on their [website](http://wufoo.com/docs/api/v3/entries/get/#filter).
 
 Enjoy!
 
