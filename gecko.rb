@@ -13,7 +13,7 @@ get '/' do
                                   ['CompleteSubmission','Is_equal_to',1]])
   #Current Month
   current_month = wufoo.count(:system => true,
-                              :filters => [['DateCreated','Is_after',current.prev_month.end_of_month],
+                              :filters => [['DateCreated','Is_after',"#{current.prev_month.end_of_month.strftime("%Y-%m-%d 23:59:59")}"],
                                            ['CompleteSubmission','Is_equal_to',1]])
   #Previous Month
   prev_month = wufoo.count(:system => true,
