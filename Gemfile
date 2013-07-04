@@ -7,3 +7,5 @@ gem 'activesupport'
 gem 'wuparty'
 
 # gem "rails"
+
+ruby '1.9.3'
