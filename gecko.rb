@@ -4,7 +4,7 @@ require "wuparty"
 require "active_support/core_ext"
 
 get '/' do
-  wufoo = WuParty::Form.new('2014-code-for-america-fellowship-application',:account => 'codeforamerica', :api_key => 'Z5TN-C4X6-B2XV-8YHB')
+  wufoo = WuParty::Form.new(ENV['FORM'],:account => ENV['ACCOUNT'], :api_key => ENV['API_KEY'])
   current = Time.new
 
   #Current Year
