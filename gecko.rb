@@ -21,7 +21,5 @@ get '/' do
                                         ['DateCreated','Is_before',"#{current.beginning_of_month.strftime("%Y-%m-%d 00:00:01")}"],
                                         ['CompleteSubmission','Is_equal_to',1]])
 
-  json :item => [{:value => "#{year}", :text => "Total for #{current.strftime("%Y")}"},
-                 {:value => "#{current_month}", :text => "Total for #{current.strftime("%B %Y")}"},
-                 {:value => "#{prev_month}", :text => "Total for #{current.prev_month.strftime("%B %Y")}"}]
+  json :item => [{:value => "#{year}", :text => "Total for #{current.strftime("%Y")}"}]
 end
